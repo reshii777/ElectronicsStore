@@ -7,9 +7,9 @@ RobotCleaner :: RobotCleaner(string names, int cash, int power, string color, do
 
 void RobotCleaner :: Show()
 {
-	cout << "Íàçâàíèå òîâàðà: "s << _names << endl;
-	cout << "Ìîùíîñòü: "s << _power << " Âàòò "s << endl;
-	cout << "Öâåò: "s << _color << endl;
-	cout << "Äèàãîíàëü ýêðàíà: "s << _display << " äþéìîâ "s << endl;
-	cout << "Öåíà: "s << _cash << " ðóá. "s << endl;
+	cout << "ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ Ñ‚Ð¾Ð²Ð°Ñ€Ð°: "s << _names << endl;
+	cout << "ÐœÐ¾Ñ‰Ð½Ð¾ÑÑ‚ÑŒ: "s << _power << " Ð’Ð°Ñ‚Ñ‚ "s << endl;
+	cout << "Ð¦Ð²ÐµÑ‚: "s << _color << endl;
+	cout << "Ð”Ð¸Ð°Ð³Ð¾Ð½Ð°Ð»ÑŒ ÑÐºÑ€Ð°Ð½Ð°: "s << _display << " Ð´ÑŽÐ¹Ð¼Ð¾Ð² "s << endl;
+	cout << "Ð¦ÐµÐ½Ð°: "s << _cash << " Ñ€ÑƒÐ±. "s << endl;
 }
