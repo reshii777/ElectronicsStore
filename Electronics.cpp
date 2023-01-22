@@ -7,6 +7,6 @@ Electronics :: Electronics(string names, int cash) : _names(names), _cash(cash)
 
 void Electronics :: Show()
 {
-	cout << "Íàçâàíèå òîâàðà: "s << _names << endl;
-	cout << "Öåíà: "s << _cash << " ðóá. " << endl;
+	cout << "ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ Ñ‚Ð¾Ð²Ð°Ñ€Ð°: "s << _names << endl;
+	cout << "Ð¦ÐµÐ½Ð°: "s << _cash << " Ñ€ÑƒÐ±. " << endl;
 }
