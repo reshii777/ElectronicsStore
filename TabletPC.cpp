@@ -7,7 +7,7 @@ TabletPC :: TabletPC(string names, int cash, double display) : Electronics(names
 
 void TabletPC :: Show()
 {
-	cout << "Íàçâàíèå òîâàðà: "s << _names << endl;
-	cout << "Äèàãîíàëü ýêðàíà: "s << _display << " äþéìîâ "s << endl;
-	cout << "Öåíà: "s << _cash << " ðóá. "s << endl;
+	cout << "ÐÐ°Ð·Ð²Ð°Ð½Ð¸Ðµ Ñ‚Ð¾Ð²Ð°Ñ€Ð°: "s << _names << endl;
+	cout << "Ð”Ð¸Ð°Ð³Ð¾Ð½Ð°Ð»ÑŒ ÑÐºÑ€Ð°Ð½Ð°: "s << _display << " Ð´ÑŽÐ¹Ð¼Ð¾Ð² "s << endl;
+	cout << "Ð¦ÐµÐ½Ð°: "s << _cash << " Ñ€ÑƒÐ±. "s << endl;
 }
