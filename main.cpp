@@ -23,7 +23,7 @@ int main() {
     bool open = true;
     while (open)
     {
-        cout << "Âûáåðåòå òîâàð :  1 - Blender, 2 - Smartphone, 3 - TabletPC, 4 - VacuumCleaner, 5 - Robot Cleaner,  0 ÷òîáû âûéòè" << endl;
+        cout << "Ð’Ñ‹Ð±ÐµÑ€ÐµÑ‚Ðµ Ñ‚Ð¾Ð²Ð°Ñ€ :  1 - Blender, 2 - Smartphone, 3 - TabletPC, 4 - VacuumCleaner, 5 - Robot Cleaner,  0 Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð²Ñ‹Ð¹Ñ‚Ð¸" << endl;
         int choice;
         cin >> choice;
         cout << endl;
@@ -60,7 +60,7 @@ int main() {
             break;
 
         default:
-            cout << "Âûáåðèòå ïðîäóêò îò 1 äî 6 èëè 0, ÷òîáû âûéòè" << endl;
+            cout << "Ð’Ñ‹Ð±ÐµÑ€Ð¸Ñ‚Ðµ Ð¿Ñ€Ð¾Ð´ÑƒÐºÑ‚ Ð¾Ñ‚ 1 Ð´Ð¾ 6 Ð¸Ð»Ð¸ 0, Ñ‡Ñ‚Ð¾Ð±Ñ‹ Ð²Ñ‹Ð¹Ñ‚Ð¸" << endl;
             break;
         }
     }
